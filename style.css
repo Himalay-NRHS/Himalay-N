@@ -20,7 +20,7 @@ body {
 }
 
 .head {
-    margin-bottom: 40px;;
+    margin-bottom: 40px;
 }
  
 .head>h1 {
@@ -249,6 +249,11 @@ font-weight: 300;
     font-weight: 300;
     }
     /*--------------------------------*/
+     .sec {
+        background-image: url('./assets/13684518_5329445.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .sec>.skill {
         color: #387ADF;
         margin-top: 50px;
