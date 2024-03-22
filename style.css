@@ -1,0 +1,342 @@
+@media (min-width : 1000px){
+body {
+    text-align: center;
+}
+
+
+.hero {
+    position: relative;
+    height : 729px;
+    background-color: #50C4ED;
+    
+    
+}
+
+.cloud {
+    position :relative ;
+    left : 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.head {
+    margin-bottom: 40px;;
+}
+ 
+.head>h1 {
+font-family: "Sacramento", cursive;
+color: #387ADF;
+text-align: center;
+font-weight: 900;
+
+font-size :100px ;
+
+}
+.head>h3 {
+    color: #387ADF;
+text-align: center;
+font-weight: 400;
+font-size : 40px
+
+}
+.pro {
+    text-decoration :underline;
+    font-family: "Sacramento", cursive;
+    font-weight: 1000;
+}
+
+.second {
+    position :absolute;
+    left :200px;
+}
+.third {
+    position: absolute;
+    right :20px;
+    bottom :300px;
+}
+.mountain {
+    position:absolute;
+    right : 20px
+}
+.resume>.dp {
+    height :200px;
+    width :200px;
+    border-radius: 50%;
+    margin-top: 100px;  
+}
+
+.resume>.hello {
+    color: #387ADF;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.resume>.para {
+    font-size :x-large;
+margin-left: 20%;
+margin-right: 20%;
+font-weight: 300;
+}
+/*-----------------------------------------*/
+.sec {
+    background-image: url('./assets/15276013_5570863.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.skill {
+    color: #387ADF;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 100px;
+    text-decoration: double;
+    text-decoration: overline;
+    text-decoration: underline;
+    
+}
+.exp {
+    display : grid;
+    margin-left: 10%;
+    margin-right: 5%;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows:300px 300px ;
+}
+.text1 {
+    text-align: left;
+    margin-left: 5%;
+}
+.text1>.skill1 {
+    color: #387ADF;
+  
+}
+.text2 {
+    text-align: left;
+    margin-left: 5%;
+}
+.text2>.skill2 {
+    color: #387ADF;
+}
+
+/*-----------------------------------------------*/
+.contact>.touch {
+    color: #387ADF;
+    margin-bottom: 50px;
+    text-decoration: overline;
+}
+.contact>p {
+    font-size :x-large;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+.contact>button {
+    size: 100px;
+}
+/*-----------------------------*/
+.footer {
+    background-color: #50C4ED;
+    
+}
+
+.footer1> a {
+   
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: underline;
+    cursor :pointer;
+    
+  
+}
+.footer1 {
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.copyright {
+    color : white;
+    margin-top: 30px;
+}
+.footer-link {
+    color :#114232;
+}
+.footer-link:hover {
+    color : white;
+}
+}
+
+
+
+@media (max-width :999px){
+    h {
+        border: dotted #eaf6f6 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto;
+    }
+    body {
+        text-align: center;
+    }
+    
+    
+    .hero {
+        position: relative;
+        height : 725px;
+        background-color: #50C4ED;
+        
+        
+    }
+    
+    .cloud {
+        position :relative ;
+    
+       margin-bottom: 50px;
+       margin-top: 50px;
+    }
+    
+    .head {
+        margin-bottom: 40px;;
+    }
+     
+    .head>h1 {
+    font-family: "Sacramento", cursive;
+    color: #387ADF;
+    text-align: center;
+    font-weight: 900;
+    
+    font-size :100px ;
+    
+    }
+    .head>h3 {
+        color: #387ADF;
+    text-align: center;
+    font-weight: 400;
+    font-size : 40px
+    
+    }       
+    .pro {
+        text-decoration :underline;
+        font-family: "Sacramento", cursive;
+        font-weight: 1000;
+    }
+    
+    .second {
+        position :relative ;
+        left:10px;
+     
+    }
+    .third {
+        position: relative;
+        
+        top :1px;
+        
+    }
+    .mountain {
+        height :190px;
+        position:relative;
+        
+    }
+    .resume>.dp {
+        height :200px;
+        width :200px;
+        border-radius: 50%;
+        margin-top: 100px;  
+    }
+    
+    .resume>.hello {
+        color: #387ADF;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .resume>.para {
+        font-size :x-large;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 300;
+    }
+    /*--------------------------------*/
+    .sec {
+        background-image: url('./assets/13684518_5329445.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .sec>.skill {
+        color: #387ADF;
+        margin-top: 50px;
+        font-size: 50px;
+        margin-bottom: 100px;
+        text-decoration: double;
+        text-decoration: overline;
+        text-decoration: underline;
+    }
+    .exp {
+        display : block;
+       
+       
+    }
+    .text1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 4%;
+    }
+    .text1>.skill1 {
+        color: #387ADF;
+        text-align: center;
+      
+    }
+    .text2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 4%;
+    }
+    .text2>.skill2 {
+        color: #387ADF;
+        text-align: center;
+    }
+    /*-----------------------------------------------*/
+.contact>.touch {
+    color: #387ADF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: overline;
+}
+.contact>p {
+    font-size :x-large;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+.contact>button {
+    size: 100px;
+    
+    
+}
+/*---------------------------*/
+.footer {
+    background-color: #50C4ED;
+    margin-top: 10px;
+    
+}
+.footer1> a {
+   
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: underline;
+    cursor :pointer;
+    
+  
+}
+.footer1 {
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.copyright {
+    color : white;
+    margin-top: 30px;
+}
+.footer-link {
+    color :#114232;
+}
+.footer-link:hover {
+    color : white;
+}
+}
